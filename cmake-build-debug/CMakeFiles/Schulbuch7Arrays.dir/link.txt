@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Schulbuch7Arrays.dir/main.cpp.o  -o Schulbuch7Arrays 
