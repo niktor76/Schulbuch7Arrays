@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Schulbuch7Arrays.dir/main.cpp.o CMakeFiles/Schulbuch7Arrays.dir/Aufgabe7_1.cpp.o  -o Schulbuch7Arrays 
+/usr/bin/c++  -g   CMakeFiles/Schulbuch7Arrays.dir/Aufgabe7_1.cpp.o  -o Schulbuch7Arrays 

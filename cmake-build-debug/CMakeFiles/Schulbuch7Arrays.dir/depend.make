@@ -3,5 +3,3 @@
 
 CMakeFiles/Schulbuch7Arrays.dir/Aufgabe7_1.cpp.o: ../Aufgabe7_1.cpp
 
-CMakeFiles/Schulbuch7Arrays.dir/main.cpp.o: ../main.cpp
-

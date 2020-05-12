@@ -87,9 +87,6 @@
 		<Unit filename="/home/viktor-nbubar/CLionProjects/Schulbuch7Arrays/Aufgabe7_1.cpp">
 			<Option target="Schulbuch7Arrays"/>
 		</Unit>
-		<Unit filename="/home/viktor-nbubar/CLionProjects/Schulbuch7Arrays/main.cpp">
-			<Option target="Schulbuch7Arrays"/>
-		</Unit>
 		<Unit filename="/home/viktor-nbubar/CLionProjects/Schulbuch7Arrays/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
