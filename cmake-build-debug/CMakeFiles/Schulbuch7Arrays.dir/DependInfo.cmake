@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/viktor/C++/Kurs/Schulbuch7Arrays/main.cpp" "/home/viktor/C++/Kurs/Schulbuch7Arrays/cmake-build-debug/CMakeFiles/Schulbuch7Arrays.dir/main.cpp.o"
+  "/home/viktor-nbubar/CLionProjects/Schulbuch7Arrays/Aufgabe7_1.cpp" "/home/viktor-nbubar/CLionProjects/Schulbuch7Arrays/cmake-build-debug/CMakeFiles/Schulbuch7Arrays.dir/Aufgabe7_1.cpp.o"
+  "/home/viktor-nbubar/CLionProjects/Schulbuch7Arrays/main.cpp" "/home/viktor-nbubar/CLionProjects/Schulbuch7Arrays/cmake-build-debug/CMakeFiles/Schulbuch7Arrays.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Schulbuch7Arrays.dir/Aufgabe7_1.cpp.o"
   "CMakeFiles/Schulbuch7Arrays.dir/main.cpp.o"
   "Schulbuch7Arrays"
   "Schulbuch7Arrays.pdb"

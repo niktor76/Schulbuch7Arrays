@@ -48,10 +48,10 @@ RM = /snap/clion/112/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viktor/C++/Kurs/Schulbuch7Arrays
+CMAKE_SOURCE_DIR = /home/viktor-nbubar/CLionProjects/Schulbuch7Arrays
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viktor/C++/Kurs/Schulbuch7Arrays/cmake-build-debug
+CMAKE_BINARY_DIR = /home/viktor-nbubar/CLionProjects/Schulbuch7Arrays/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/C++/Kurs/Schulbuch7Arrays/cmake-build-debug/CMakeFiles /home/viktor/C++/Kurs/Schulbuch7Arrays/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor-nbubar/CLionProjects/Schulbuch7Arrays/cmake-build-debug/CMakeFiles /home/viktor-nbubar/CLionProjects/Schulbuch7Arrays/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/C++/Kurs/Schulbuch7Arrays/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor-nbubar/CLionProjects/Schulbuch7Arrays/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ Schulbuch7Arrays/fast:
 	$(MAKE) -f CMakeFiles/Schulbuch7Arrays.dir/build.make CMakeFiles/Schulbuch7Arrays.dir/build
 .PHONY : Schulbuch7Arrays/fast
 
+Aufgabe7_1.o: Aufgabe7_1.cpp.o
+
+.PHONY : Aufgabe7_1.o
+
+# target to build an object file
+Aufgabe7_1.cpp.o:
+	$(MAKE) -f CMakeFiles/Schulbuch7Arrays.dir/build.make CMakeFiles/Schulbuch7Arrays.dir/Aufgabe7_1.cpp.o
+.PHONY : Aufgabe7_1.cpp.o
+
+Aufgabe7_1.i: Aufgabe7_1.cpp.i
+
+.PHONY : Aufgabe7_1.i
+
+# target to preprocess a source file
+Aufgabe7_1.cpp.i:
+	$(MAKE) -f CMakeFiles/Schulbuch7Arrays.dir/build.make CMakeFiles/Schulbuch7Arrays.dir/Aufgabe7_1.cpp.i
+.PHONY : Aufgabe7_1.cpp.i
+
+Aufgabe7_1.s: Aufgabe7_1.cpp.s
+
+.PHONY : Aufgabe7_1.s
+
+# target to generate assembly for a file
+Aufgabe7_1.cpp.s:
+	$(MAKE) -f CMakeFiles/Schulbuch7Arrays.dir/build.make CMakeFiles/Schulbuch7Arrays.dir/Aufgabe7_1.cpp.s
+.PHONY : Aufgabe7_1.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Schulbuch7Arrays"
+	@echo "... Aufgabe7_1.o"
+	@echo "... Aufgabe7_1.i"
+	@echo "... Aufgabe7_1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
